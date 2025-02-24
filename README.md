@@ -1,6 +1,6 @@
 # AWS ETL Pipeline using Spotify API 🎵☁️
 
-![Pipeline Diagram](image-link)
+![Pipeline Diagram](spotify_etl_pipeline_architecture.png)
 
 ## 📌 Overview
 This project is a **serverless ETL pipeline** built using **AWS services** to extract data from the **Spotify API**, transform it using **AWS Lambda**, and load it into **Amazon Athena** for analytics. The pipeline is scheduled to run daily using **Amazon CloudWatch**.
