@@ -31,17 +31,6 @@ This project is a **serverless ETL pipeline** built using **AWS services** to ex
 - **Amazon Athena**: A serverless query service that allows direct SQL querying of data stored in S3, without requiring a database setup.
 - **Amazon S3 Event Triggers**: Automates data transformation by invoking AWS Lambda functions whenever new data is uploaded.
 
-## 📂 Project Structure
-```
-├── etl_pipeline/
-│   ├── extract_lambda.py  # Extracts data from Spotify API
-│   ├── transform_lambda.py  # Transforms and cleans data
-│   ├── s3_triggers.py  # Manages S3 events
-│   ├── glue_crawler.py  # Configures AWS Glue
-│   ├── queries/  # Athena SQL queries
-│   ├── docs/  # Documentation & images
-│   └── README.md
-```
 ## 🔗 Resources
 - **Spotify API Docs**: [https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api)
 - **AWS Glue**: [https://aws.amazon.com/glue](https://aws.amazon.com/glue)
